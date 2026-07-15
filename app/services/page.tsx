@@ -105,7 +105,7 @@ export default function Services() {
                     className="bg-white rounded-lg shadow-sm hover:shadow-md transition p-8 border border-border"
                   >
                     <div className="flex items-center gap-4 mb-4">
-                      <div className="p-3 rounded" style={{backgroundColor: '#58f70a'}}>
+                      <div className="p-3 rounded" style={{ backgroundColor: '#58f70a' }}>
                         <Icon className="text-accent" size={28} />
                       </div>
                       <h3 className="text-xl font-semibold text-foreground">{service.title}</h3>
@@ -172,7 +172,7 @@ export default function Services() {
               {[
                 {
                   title: 'Expert Team',
-                  description: 'Highly skilled and experienced electrical professionals.',
+                  description: 'Highly skilled and 10+ experienced electrical professionals.',
                 },
                 {
                   title: 'Quality Assurance',
