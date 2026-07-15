@@ -15,15 +15,15 @@ export default function About() {
         {/* Hero Section */}
         <section className="bg-background py-12 md:py-20 px-4">
           <div className="max-w-7xl mx-auto">
-            <p className="text-accent font-bold text-sm md:text-base mb-4">WHO WE ARE?</p>
-            <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
+            <p className="text-accent font-bold text-sm md:text-base mb-4 font-inter">WHO WE ARE?</p>
+            <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6 font-geist">
               Want to Know a little <span className="text-accent">About us?</span>
             </h1>
-            <p className="text-2xl md:text-3xl text-foreground font-semibold mb-8">Let us tell you.</p>
+            <p className="text-2xl md:text-3xl text-foreground font-semibold mb-8 font-geist">Let us tell you.</p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
               <div>
-                <p className="text-gray-600 leading-relaxed mb-4">
+                <p className="text-gray-600 leading-relaxed mb-4 font-geist text-justify">
                   Omkar Electricals is a comprehensive electrical contracting and service organization. Our programme involves a dynamic and committed work force that serves its clients in meeting and exceeding their commitment towards sustainable built environment, energy efficiency and safety compliance.
                 </p>
               </div>
@@ -41,7 +41,7 @@ export default function About() {
 
         {/* Company Info Section */}
         <section className="py-16 md:py-24 px-4 bg-white">
-          <div className="max-w-7xl mx-auto">
+          <div className="max-w-7xl mx-auto font-geist">
             <p className="text-gray-700 mb-6 leading-relaxed">
               Omkar Electricals envisions being a flag-bearer for sustainable electrical solutions. We promote sustainability movement and create awareness about sustainable habitat by highlighting strategies.
             </p>
@@ -74,8 +74,8 @@ export default function About() {
                     className="object-cover"
                   />
                 </div>
-                <h3 className="text-2xl font-bold text-foreground mb-4">Our Vision</h3>
-                <p className="text-gray-700 leading-relaxed">
+                <h3 className="text-2xl font-bold text-foreground mb-4 font-geist">Our Vision</h3>
+                <p className="text-gray-700 leading-relaxed font-geist">
                   To be the most respected sustainable design consultancy company for our clients and employees that embark on an everlasting legacy through sustainable design solutions and implementations.
                 </p>
               </div>
@@ -90,8 +90,8 @@ export default function About() {
                     className="object-cover"
                   />
                 </div>
-                <h3 className="text-2xl font-bold text-foreground mb-4">Our Mission</h3>
-                <p className="text-gray-700 leading-relaxed">
+                <h3 className="text-2xl font-bold text-foreground mb-4 font-geist">Our Mission</h3>
+                <p className="text-gray-700 leading-relaxed font-geist text-justify">
                   Our consultancy serves clients with high standards of honesty, integrity, competence and objectivity. We work with the end in mind and strong ethics. We discourage any commissions, remuneration, or other benefits from any third party in connection with the recommendations to our clients. Respecting the individual&apos;s space and responsibility for balancing personal and professional life.
                 </p>
               </div>
@@ -114,7 +114,7 @@ export default function About() {
               </div>
 
               {/* Values Content */}
-              <div>
+              <div className="font-geist text-justify">
                 <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-8">VALUES</h2>
 
                 <ul className="space-y-4">

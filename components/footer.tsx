@@ -15,7 +15,7 @@ export function Footer() {
           <div>
             <h3 className="font-bold text-lg mb-4">Omkar Electricals</h3>
             <p className="text-gray-300 text-sm">
-              Professional electrical contracting services for residential, commercial, and industrial projects. Adding light to life since day one.
+              Professional Government electrical contracting services for residential, commercial, and industrial projects. Adding light to life since day one.
             </p>
           </div>
 
