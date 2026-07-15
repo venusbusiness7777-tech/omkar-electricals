@@ -92,19 +92,31 @@ export default function Home() {
                 {
                   title: 'Residential Wiring',
                   description: 'Complete electrical wiring solutions for homes with safety compliance',
+                  image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-5h0vBX0i7Y641cJ4tYRRolqtEFuY11.png',
                 },
                 {
                   title: 'Industrial Installation',
                   description: 'Heavy-duty electrical systems for industrial applications',
+                  image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-qV1D3WJNYQ92w51dKUcwAK6zmg6cVE.png',
                 },
                 {
                   title: 'Maintenance & Repair',
                   description: 'Professional maintenance and repair of existing electrical systems',
+                  image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-dYc3jcrTgOT6ISU3mRVsC0ceWtzbnn.png',
                 },
               ].map((service) => (
-                <div key={service.title} className="bg-white p-6 rounded-lg shadow-sm">
-                  <h3 className="text-xl font-semibold text-foreground mb-3">{service.title}</h3>
-                  <p className="text-gray-600">{service.description}</p>
+                <div key={service.title} className="bg-white rounded-lg shadow-sm overflow-hidden hover:shadow-md transition">
+                  <div className="w-full h-40 overflow-hidden">
+                    <img
+                      src={service.image}
+                      alt={service.title}
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                  <div className="p-6">
+                    <h3 className="text-xl font-semibold text-foreground mb-3">{service.title}</h3>
+                    <p className="text-gray-600">{service.description}</p>
+                  </div>
                 </div>
               ))}
             </div>
