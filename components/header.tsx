@@ -37,7 +37,7 @@ export function Header() {
       </div>
 
       {/* Main navigation */}
-      <nav className="py-4 px-4">
+      <nav className="py-4 px-4 font-inter">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2">

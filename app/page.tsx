@@ -14,18 +14,18 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
               {/* Left content */}
               <div>
-                <p className="text-accent font-bold text-sm md:text-base mb-4">
+                <p className="text-accent font-bold text-sm md:text-base mb-4 font-inter">
                   WELCOME TO OMKAR ELECTRICALS
                 </p>
-                <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6 leading-tight">
+                <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6 leading-tight font-geist">
                   Electrical contractors in Mumbai
                 </h1>
-                <p className="text-gray-600 text-base leading-relaxed mb-8">
-                  In Mumbai, most individuals confuse an electrician with an electrical contractor since they do not know the essential distinctions between them. However, both positions are different from one another and might be regarded as electricians employed by electrical contractors in Mumbai. Let&apos;s examine a few of the basic tasks performed by electrical contractors.
+                <p className="text-gray-600 text-base leading-relaxed mb-8 text-justify font-geist">
+                  In Maharashtra, most individuals confuse an electrician with an electrical contractor since they do not know the essential distinctions between them. However, both positions are different from one another and might be regarded as electricians employed by electrical contractors in Mumbai. Let&apos;s examine a few of the basic tasks performed by electrical contractors.
                 </p>
                 <Link
                   href="/about"
-                  className="inline-block bg-accent text-accent-foreground px-6 py-3 rounded font-bold hover:opacity-90 transition"
+                  className="inline-block bg-accent text-accent-foreground px-6 py-3 rounded font-bold hover:opacity-90 transition font-quicksand"
                 >
                   ABOUT US
                 </Link>
@@ -52,14 +52,14 @@ export default function Home() {
           <div className="max-w-7xl mx-auto">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
               {/* Left text */}
-              <div>
-                <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
+              <div className="font-geist">
+                <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6 font-geist">
                   <span className="text-accent">Omkar</span> Electricals
                 </h2>
-                <p className="text-gray-700 mb-4 leading-relaxed">
+                <p className="text-gray-700 mb-4 leading-relaxed text-justify">
                   is one of the top electrical contractors in Mumbai because we are happy to be connected with some of the most prestigious electrical projects in the city. With a group of highly skilled and knowledgeable experts who are on board and completely comprehend your needs. Electrical cable laying, concealed wiring, casing wiring, industrial wiring, residential wiring, turnkey electrical projects, maintenance and installation, among other electrical services, are just a few of the many electrical services we provide in Mumbai. In Mumbai, we offer the best solar kits. The electrical contractors we work with in Navi Mumbai and Mumbai are excellent.
                 </p>
-                <p className="text-gray-700 leading-relaxed">
+                <p className="text-gray-700 leading-relaxed text-justify">
                   For any kind of property, electrical wiring is crucial. You cannot afford to be lax in this situation. To ensure that quality is never compromised, we take all necessary safety precautions. We are one of Mumbai&apos;s most dependable electrical contractors because of this. Our network is incredibly robust and provides power services in Mumbai that are unmatched. So don&apos;t hesitate to look for a contractor who handles jobs like cover wiring, industrial wiring, etc. You are already in the proper location. Mumbai has a large number of electrical contractors, but we stand out from the crowd since we are superior to them.
                 </p>
               </div>
@@ -80,14 +80,14 @@ export default function Home() {
         {/* Services Preview */}
         <section className="bg-secondary py-16 md:py-24 px-4">
           <div className="max-w-7xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold text-center text-foreground mb-4">
+            <h2 className="text-3xl md:text-4xl font-bold text-center text-foreground mb-4 font-geist">
               Our Services
             </h2>
-            <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
+            <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto font-inter">
               We provide comprehensive electrical services for residential, commercial, and industrial projects.
             </p>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12 font-geist">
               {[
                 {
                   title: 'Residential Wiring',
@@ -112,7 +112,7 @@ export default function Home() {
             <div className="text-center">
               <Link
                 href="/services"
-                className="inline-block bg-accent text-accent-foreground px-8 py-3 rounded font-bold hover:opacity-90 transition"
+                className="inline-block bg-accent text-accent-foreground px-8 py-3 rounded font-bold hover:opacity-90 transition font-quicksand"
               >
                 View All Services
               </Link>
@@ -123,15 +123,15 @@ export default function Home() {
         {/* CTA Section */}
         <section className="bg-foreground text-white py-16 md:py-20 px-4">
           <div className="max-w-7xl mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">
+            <h2 className="text-3xl md:text-4xl font-bold mb-6 font-geist">
               Need Professional Electrical Services?
             </h2>
-            <p className="text-gray-300 mb-8 text-lg max-w-2xl mx-auto">
+            <p className="text-gray-300 mb-8 text-lg max-w-2xl mx-auto font-geist">
               Contact us today for a free quote. Our experienced team is ready to help with any electrical project.
             </p>
             <Link
               href="/contact"
-              className="inline-block bg-accent text-accent-foreground px-8 py-3 rounded font-bold hover:opacity-90 transition"
+              className="inline-block bg-accent text-accent-foreground px-8 py-3 rounded font-bold hover:opacity-90 transition font-quicksand"
             >
               Get A Quote Now
             </Link>
