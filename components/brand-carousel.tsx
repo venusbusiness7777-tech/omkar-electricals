@@ -75,7 +75,7 @@ export function BrandCarousel() {
           <div
             className="flex gap-8 md:gap-12 animate-scroll"
             style={{
-              animation: 'scroll 25s linear infinite',
+              animation: 'scroll 10s linear infinite',
             }}
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
@@ -102,12 +102,12 @@ export function BrandCarousel() {
             transform: translateX(0);
           }
           100% {
-            transform: translateX(calc(-50% - 2rem));
+            transform: translateX(calc(-50%));
           }
         }
 
         .animate-scroll {
-          animation: scroll 25s linear infinite;
+          animation: scroll 10s linear infinite;
         }
 
         .animate-scroll:hover {
