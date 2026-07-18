@@ -35,8 +35,8 @@ export default function Home() {
               <div className="relative">
                 <div className="relative h-96 md:h-[500px] w-full">
                   <Image
-                    src="/electrician-hero.png"
-                    alt="Professional electrician with tools"
+                    src="/contractor-working.jpeg"
+                    alt="Professional electrician working on electrical panel"
                     fill
                     className="object-cover rounded-lg"
                     priority
