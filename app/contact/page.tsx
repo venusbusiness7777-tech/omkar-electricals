@@ -34,11 +34,11 @@ export default function Contact() {
                 </div>
                 <h3 className="text-xl font-semibold text-foreground mb-4">Head Office</h3>
                 <p className="text-gray-700 text-base leading-relaxed font-roboto">
-                  Janwadkar complex lower ground (LG-2),
+                  Janwadkar complex lower ground (LG-2), Panchaganga hospital,
                   <br />
-                  Panchaganga hospital, Kolhapur,
+                  2116 Shukrawar peth, Kolhapur (416002),
                   <br />
-                  Maharashtra 416002
+                  Maharashtra
                 </p>
               </div>
 
