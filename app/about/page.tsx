@@ -72,7 +72,7 @@ export default function About() {
                     src="/vision-image.png"
                     alt="Our vision"
                     fill
-                    className="object-cover"
+                    className="object-contain"
                   />
                 </div>
                 <h3 className="text-2xl font-medium text-foreground mb-4 font-geist">Our Vision</h3>
@@ -88,7 +88,7 @@ export default function About() {
                     src="/mission-image.png"
                     alt="Our mission"
                     fill
-                    className="object-cover"
+                    className="object-contain"
                   />
                 </div>
                 <h3 className="text-2xl font-medium text-foreground mb-4 font-geist">Our Mission</h3>
@@ -110,7 +110,7 @@ export default function About() {
                   src="/values-image.png"
                   alt="Our core values"
                   fill
-                  className="object-cover"
+                  className="object-contain"
                 />
               </div>
 
