@@ -78,16 +78,16 @@ export default function AreaOfWork() {
                 </p>
 
                 {/* Logos Display */}
-                <div className="flex flex-wrap gap-8">
+                <div className="flex flex-wrap items-center justify-start gap-12 md:gap-16">
                   {sector.logos.map((logo) => (
                     <div
                       key={logo.name}
-                      className="flex-1 min-w-64 bg-white p-8 rounded-lg shadow-sm border border-border flex items-center justify-center hover:shadow-md transition h-40"
+                      className="group transition-all duration-300 hover:scale-110"
                     >
                       <img
                         src={logo.url}
                         alt={logo.name}
-                        className="max-h-32 max-w-full object-contain"
+                        className="h-auto max-h-32 object-contain opacity-80 group-hover:opacity-100 transition-opacity duration-300"
                       />
                     </div>
                   ))}
