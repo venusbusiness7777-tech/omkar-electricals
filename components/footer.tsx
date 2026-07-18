@@ -47,8 +47,9 @@ export function Footer() {
           </div>
 
           {/* Copyright */}
-          <div className="text-center text-gray-100 text-sm">
-            <p>© Omkar Electricals {currentYear}. All Rights Reserved</p>
+          <div className="text-center text-gray-200 text-sm">
+            <p>© Omkar Electricals {currentYear}.</p>
+            <p>All Rights Reserved.</p>
           </div>
         </div>
       </div>
