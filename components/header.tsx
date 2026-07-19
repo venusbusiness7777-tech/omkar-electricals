@@ -18,7 +18,7 @@ export function Header() {
           </Link>
 
           {/* Desktop menu */}
-          <div className="hidden md:flex items-center gap-14 font-light">
+          <div className="hidden md:flex items-center gap-14 font-normal">
             <Link href="/" className="text-foreground hover:text-accent transition">
               Home
             </Link>
