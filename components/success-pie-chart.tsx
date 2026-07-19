@@ -110,7 +110,7 @@ export function SuccessPieChart() {
             wrapperStyle={{
               paddingTop: '24px',
               display: 'flex',
-              justifyContent: 'flex-start',
+              justifyContent: 'center',
               flexWrap: 'wrap',
               gap: '34px',
             }}
