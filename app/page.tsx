@@ -157,14 +157,19 @@ export default function Home() {
               Need Professional Electrical Services?
             </h2>
             <p className="text-gray-300 mb-8 text-lg max-w-2xl mx-auto font-geist">
-              Contact us today for a free quote. Our experienced team is ready to help with any electrical project.
+              Download our brochure to explore our electrical solutions, industry experience, and successful project portfolio.
             </p>
             <button
               onClick={handleBrochureDownload}
-              className="inline-block px-8 py-3 rounded font-medium hover:opacity-90 transition font-inter cursor-pointer text-white"
+              className="inline-flex items-center gap-3 px-8 py-3 rounded font-medium hover:opacity-90 transition font-inter cursor-pointer text-white"
               style={{ backgroundColor: '#e81717' }}
             >
               Download Brochure
+              <img
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-removebg-preview%20%2820%29-O93XTCqx94FrgBLROhZZAeM2mTPMj7.png"
+                alt="Download icon"
+                style={{ width: '18px', height: '18px' }}
+              />
             </button>
           </div>
         </section>
