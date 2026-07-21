@@ -157,7 +157,7 @@ export default function Home() {
               Need Professional Electrical Services?
             </h2>
             <p className="text-gray-300 mb-8 text-lg max-w-2xl mx-auto font-geist">
-              Contact us today for a free quote. Our experienced team is ready to help with any electrical project.
+              Download our brochure to explore our electrical solutions, industry experience, and successful project portfolio.
             </p>
             <button
               onClick={handleBrochureDownload}
