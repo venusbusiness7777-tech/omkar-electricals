@@ -1,9 +1,27 @@
+'use client'
+
 import Link from 'next/link'
 import Image from 'next/image'
 import { Header } from '@/components/header'
 import { Footer } from '@/components/footer'
 
 export default function Home() {
+  const handleBrochureDownload = async () => {
+    try {
+      const response = await fetch('https://blobs.vusercontent.net/blob/Omkar%20Electricals%20Brochure_compressed-dAbswxQUlz4XCuR8RahBpfp7IddDlf.pdf')
+      const blob = await response.blob()
+      const url = window.URL.createObjectURL(blob)
+      const a = document.createElement('a')
+      a.href = url
+      a.download = 'Omkar_Electricals_Brochure.pdf'
+      document.body.appendChild(a)
+      a.click()
+      window.URL.revokeObjectURL(url)
+      document.body.removeChild(a)
+    } catch (error) {
+      console.error('Failed to download brochure:', error)
+    }
+  }
   return (
     <>
       <Header />
@@ -141,13 +159,12 @@ export default function Home() {
             <p className="text-gray-300 mb-8 text-lg max-w-2xl mx-auto font-geist">
               Contact us today for a free quote. Our experienced team is ready to help with any electrical project.
             </p>
-            <a
-              href="https://blobs.vusercontent.net/blob/Omkar%20Electricals%20Brochure_compressed-dAbswxQUlz4XCuR8RahBpfp7IddDlf.pdf"
-              download="Omkar_Electricals_Brochure.pdf"
-              className="inline-block bg-accent text-accent-foreground px-8 py-3 rounded font-medium hover:opacity-90 transition font-inter"
+            <button
+              onClick={handleBrochureDownload}
+              className="inline-block bg-accent text-accent-foreground px-8 py-3 rounded font-medium hover:opacity-90 transition font-inter cursor-pointer"
             >
               Contact Now
-            </a>
+            </button>
           </div>
         </section>
       </main>
