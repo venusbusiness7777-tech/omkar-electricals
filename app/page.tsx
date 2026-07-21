@@ -141,12 +141,13 @@ export default function Home() {
             <p className="text-gray-300 mb-8 text-lg max-w-2xl mx-auto font-geist">
               Contact us today for a free quote. Our experienced team is ready to help with any electrical project.
             </p>
-            <Link
-              href="/contact"
+            <a
+              href="https://blobs.vusercontent.net/blob/Omkar%20Electricals%20Brochure_compressed-dAbswxQUlz4XCuR8RahBpfp7IddDlf.pdf"
+              download="Omkar_Electricals_Brochure.pdf"
               className="inline-block bg-accent text-accent-foreground px-8 py-3 rounded font-medium hover:opacity-90 transition font-inter"
             >
               Contact Now
-            </Link>
+            </a>
           </div>
         </section>
       </main>
